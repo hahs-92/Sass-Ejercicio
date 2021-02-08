@@ -1,0 +1,16 @@
+{
+  "name": "sass1",
+  "version": "1.0.0",
+  "description": "curso de sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "preprocesadores"
+  ],
+  "author": "Hugo Alexander Hernandez Serrano",
+  "license": "ISC"
+}
