@@ -1,12 +1,13 @@
 
 .perfil {
-	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 60%;
 	padding-top: 50px;
 	color: $color-claro;
 	background-color: $color-secundario;
 	&__avatar {
-		display: block;
-		margin: 0 auto;
 		border-radius: 50em;
 	}
 	&__nombre {
@@ -15,7 +16,6 @@
 		@include titulos($Fuente2)
 	}
 	&__titulo {
-		display: block;
 		text-transform: uppercase;
 		text-align: center;
 		font-weight: 700;
@@ -23,11 +23,10 @@
 		color: get-opacity($color-claro, .50);
 	}
 	&__boton {
-		display: block;
 		width: 100px;
 		height: 40px;
-		margin: 15px auto;
-		padding-top: 15px;
+		margin: 15px;
+		padding: 15px;
 		border-radius: 20px;
 		text-decoration: none;
 		text-align: center;
@@ -40,8 +39,8 @@
 
 
 .perfil__minibio {
-	margin: 0 auto;
-	padding-top: 20px;
+	
+	padding-top: 30px;
 	h2 {
 		@extend .perfil__nombre;
 	}

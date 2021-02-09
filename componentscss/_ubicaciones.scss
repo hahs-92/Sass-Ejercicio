@@ -1,9 +1,10 @@
 
 .ubicacion--perfil {
 	width: 50%;
+	min-width: 230px;
 	height: 90px;
-	margin: 30px auto 0 auto;
-	padding: 20px 0 0 50px;
+	margin-top: 30px;
+	padding: 20px ;
 	@include caja;
 	i {
 		display: block;
