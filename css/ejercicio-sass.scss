@@ -1,53 +1,7 @@
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-
-body {
-	font-family: 'Lato', sans-serif;
-	font-size: 62.5%;
-}
-
-main {
-	display: flex;
-	width: 100%;
-	height: 100vh;
-}
-
-.perfil {
-	width: 50%;
-	padding-top: 50px;
-	&__avatar {
-		display: block;
-		margin: 0 auto;
-		border-radius: 50em;
-	}
-	&__nombre {
-		text-transform: uppercase;
-		text-align: center;
-		font-size: 2rem;
-	}
-	&__titulo {
-		display: block;
-		text-transform: uppercase;
-		text-align: center;
-		font-weight: 700;
-		font-size: 1.2rem;
-	}
-	&__boton {
-		display: block;
-		width: 100px;
-		height: 40px;
-		margin: 15px auto;
-		padding-top: 15px;
-		border-radius: 20px;
-		text-decoration: none;
-		text-transform: uppercase;
-		text-align: center;
-	}
-}
-
+@import "../componentscss/globales.scss";
+@import "../componentscss/perfiles.scss";
+@import "../componentscss/estadisticas.scss";
+@import "../componentscss/ubicaciones.scss";
 
 
 
